@@ -28,7 +28,7 @@ public class MatrixMultiplicationReducer extends Reducer<Text, Text, Text, LongW
                 int row = Integer.parseInt(cell[1].trim());
                 b[row] = Integer.parseInt(cell[3].trim());
             }
-        }  Intellij
+        }
         int total = 0;
         for (int i = 0; i < 5; i++) {
             long val = a[i] * b[i];
